@@ -33,4 +33,19 @@ add_action( 'wp_enqueue_scripts', 'ds11_scripts_style' );
 add_filter( 'gutenberg_use_widgets_block_editor', '__return_false' );
 add_filter( 'use_widgets_block_editor', '__return_false' );
 
+/**
+ * Блок руководителя 
+ */
+require 'inc/chif.php';
+
+/**
+ * Банеры
+ */
+require 'inc/baners.php';
+
+/**
+ * Банер госуслуги
+ */
+require 'inc/gosuslugi.php';
+
 ?>
