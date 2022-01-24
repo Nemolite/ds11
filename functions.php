@@ -48,4 +48,9 @@ require 'inc/baners.php';
  */
 require 'inc/gosuslugi.php';
 
+/**
+ * Яндекс карты
+ */
+require 'inc/yandexmap.php';
+
 ?>
