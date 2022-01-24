@@ -84,9 +84,10 @@
 
 					<?php
 						/* translators: 1: WordPress 2: Theme Author. */
-						printf( esc_html__( 'Powered by %1$s and %2$s.', 'bam' ),
+						printf( esc_html__( 'Powered by %1$s and %2$s.%3$s', 'bam' ),
 							'<a href="https://wordpress.org" target="_blank">WordPress</a>',
-							'<a href="https://themezhut.com/themes/bam/" target="_blank">Bam</a>'
+							'<a href="https://themezhut.com/themes/bam/" target="_blank">Bam</a>',
+							'<p>Разработка и техническая поддержка сайта <a href="http://vandraren.ru/" target="_blank">VANDRAREN</a>- разработка веб-проектов</p>'
 						); 
 					?>
 				</div><!-- .copyright-container -->
