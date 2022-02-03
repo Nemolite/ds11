@@ -19,15 +19,11 @@ get_header();
 
 	<div id="primary" class="content-area">
 
-	    <div class="ds11_gosuslugi">
-
-			<?php do_action( 'ds11_gosuslugi' ); ?>
-			
-		</div>	
-
-		<?php do_action( 'bam_before_main' ); ?>
+	   <?php do_action( 'bam_before_main' ); ?>
 
 		<main id="main" class="site-main">
+
+			<?php do_action( 'ds11_top_info' ); ?>
 
 			<?php do_action( 'bam_before_blog_entries' ); ?>
 			
@@ -99,6 +95,12 @@ get_header();
 		</main><!-- #main -->
 
 		<?php do_action( 'bam_after_main' ); ?>
+		
+		 <div class="ds11_gosuslugi">
+
+			<?php do_action( 'ds11_gosuslugi' ); ?>
+			
+		</div>
 
 	</div><!-- #primary -->
 

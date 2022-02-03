@@ -53,4 +53,9 @@ require 'inc/gosuslugi.php';
  */
 require 'inc/yandexmap.php';
 
+/**
+ * Блок объявления
+ */
+require 'inc/top_info.php';
+
 ?>
